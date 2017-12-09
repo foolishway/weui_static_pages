@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>尿失禁问卷表2</title>
+    <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/1.1.2/weui.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <script type="text/javascript" src="./script/zepto.min.js"></script>
+    <script type="text/javascript" src="https://res.wx.qq.com/open/libs/weuijs/1.0.0/weui.min.js"></script>
+</head>
+<body>
+<div class="form-head">1、漏尿的次数 (单选)：</div>
+<div class="weui-cells weui-cells_radio">
+    <label class="weui-cell weui-check__label" for="x11">
+        <div class="weui-cell__bd">
+            <p>从来不漏尿</p>
+        </div>
+        <div class="weui-cell__ft">
+            <input type="radio" class="weui-check" name="radio1" id="x11">
+            <span class="weui-icon-checked"></span>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="x13">
+
+        <div class="weui-cell__bd">
+            <p>一星期大约漏尿1次或经常不到1次</p>
+        </div>
+        <div class="weui-cell__ft">
+            <input type="radio" name="radio1" class="weui-check" id="x13" checked="checked">
+            <span class="weui-icon-checked"></span>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="x14">
+
+        <div class="weui-cell__bd">
+            <p>一星期漏尿2次或3次</p>
+        </div>
+        <div class="weui-cell__ft">
+            <input type="radio" name="radio1" class="weui-check" id="x14" checked="checked">
+            <span class="weui-icon-checked"></span>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="x15">
+
+        <div class="weui-cell__bd">
+            <p>每天大约漏尿1次</p>
+        </div>
+        <div class="weui-cell__ft">
+            <input type="radio" name="radio1" class="weui-check" id="x15" checked="checked">
+            <span class="weui-icon-checked"></span>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="x16">
+
+        <div class="weui-cell__bd">
+            <p>一天漏尿数次</p>
+        </div>
+        <div class="weui-cell__ft">
+            <input type="radio" name="radio1" class="weui-check" id="x16" checked="checked">
+            <span class="weui-icon-checked"></span>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="x17">
+
+        <div class="weui-cell__bd">
+            <p>一直漏尿</p>
+        </div>
+        <div class="weui-cell__ft">
+            <input type="radio" name="radio1" class="weui-check" id="x17" checked="checked">
+            <span class="weui-icon-checked"></span>
+        </div>
+    </label>
+</div>
+<div class="form-head">2、通常情况下，漏尿量是多少 (单选)：</div>
+<div class="weui-cells weui-cells_radio">
+    <label class="weui-cell weui-check__label" for="x18">
+        <div class="weui-cell__bd">
+            <p>不漏尿</p>
+        </div>
+        <div class="weui-cell__ft">
+            <input type="radio" class="weui-check" name="radio1" id="x18">
+            <span class="weui-icon-checked"></span>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="x19">
+
+        <div class="weui-cell__bd">
+            <p>少量漏尿</p>
+        </div>
+        <div class="weui-cell__ft">
+            <input type="radio" name="radio1" class="weui-check" id="x19" checked="checked">
+            <span class="weui-icon-checked"></span>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="x20">
+
+        <div class="weui-cell__bd">
+            <p>中等量漏尿</p>
+        </div>
+        <div class="weui-cell__ft">
+            <input type="radio" name="radio1" class="weui-check" id="x20" checked="checked">
+            <span class="weui-icon-checked"></span>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="x21">
+
+        <div class="weui-cell__bd">
+            <p>大量漏尿</p>
+        </div>
+        <div class="weui-cell__ft">
+            <input type="radio" name="radio1" class="weui-check" id="x21" checked="checked">
+            <span class="weui-icon-checked"></span>
+        </div>
+    </label>
+</div>
+<div class="form-head">3、漏尿对您日常生活影响程度如何？(滑动标尺选择)</div>
+<div class="slider">
+    <div class="weui-slider-box" style="margin-top:20px;padding-top:20px;">
+        <div class="weui-slider">
+            <div id="sliderInner" class="weui-slider__inner">
+                <div id="sliderTrack" style="width: 50%;" class="weui-slider__track"></div>
+                <div id="sliderHandler" style="left: 50%;" class="weui-slider__handler"></div>
+            </div>
+        </div>
+        <div id="sliderValue" class="weui-slider-box__value">5</div>
+    </div>
+    <div class="slider-value-box">
+        <ul class="value-list">
+            <li class="f-color">1</li>
+            <li class="f-color">2</li>
+            <li class="f-color">3</li>
+            <li class="f-color">4</li>
+            <li class="f-color">5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+        </ul>
+        <div class="slider-desc">
+            （0表示没有影响，10表示有很大影响)
+        </div>
+    </div>
+</div>
+<div class="form-head">4、什么时候发生漏尿？(多选)</div>
+<div class="weui-cells weui-cells_checkbox">
+    <label class="weui-cell weui-check__label" for="s1">
+        <div class="weui-cell__hd">
+            <input type="checkbox" class="weui-check" name="checkbox1" id="s1" checked="checked">
+            <i class="weui-icon-checked"></i>
+        </div>
+        <div class="weui-cell__bd">
+            <p>从不漏尿</p>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="s7">
+        <div class="weui-cell__hd">
+            <input type="checkbox" name="checkbox1" class="weui-check" id="s7">
+            <i class="weui-icon-checked"></i>
+        </div>
+        <div class="weui-cell__bd">
+            <p>在小便完和穿好衣服时漏尿</p>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="s2">
+        <div class="weui-cell__hd">
+            <input type="checkbox" name="checkbox1" class="weui-check" id="s2">
+            <i class="weui-icon-checked"></i>
+        </div>
+        <div class="weui-cell__bd">
+            <p>在睡着时漏尿</p>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="s3">
+        <div class="weui-cell__hd">
+            <input type="checkbox" name="checkbox1" class="weui-check" id="s3">
+            <i class="weui-icon-checked"></i>
+        </div>
+        <div class="weui-cell__bd">
+            <p>未能到达厕所就会有尿液漏出</p>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="s4">
+        <div class="weui-cell__hd">
+            <input type="checkbox" name="checkbox1" class="weui-check" id="s4">
+            <i class="weui-icon-checked"></i>
+        </div>
+        <div class="weui-cell__bd">
+            <p>在所有时间内漏尿</p>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="s8">
+        <div class="weui-cell__hd">
+            <input type="checkbox" name="checkbox1" class="weui-check" id="s8">
+            <i class="weui-icon-checked"></i>
+        </div>
+        <div class="weui-cell__bd">
+            <p>在没有明显理由的情况下漏尿</p>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="s5">
+        <div class="weui-cell__hd">
+            <input type="checkbox" name="checkbox1" class="weui-check" id="s5">
+            <i class="weui-icon-checked"></i>
+        </div>
+        <div class="weui-cell__bd">
+            <p>在咳嗽或打喷嚏时漏尿</p>
+        </div>
+    </label>
+    <label class="weui-cell weui-check__label" for="s6">
+        <div class="weui-cell__hd">
+            <input type="checkbox" name="checkbox1" class="weui-check" id="s6">
+            <i class="weui-icon-checked"></i>
+        </div>
+        <div class="weui-cell__bd">
+            <p>在活动或体育运动时漏尿</p>
+        </div>
+    </label>
+</div>
+
+<div class="opt"><a href="javascript:;" class="weui-btn weui-btn_primary">提交问卷</a></div>
+<script type="text/javascript">
+    $(function () {
+        var $sliderTrack = $('#sliderTrack'),
+            $sliderHandler = $('#sliderHandler'),
+            $sliderValue = $('#sliderValue');
+
+        var totalLen = $('#sliderInner').width(),
+            startLeft = 0,
+            startX = 0;
+
+        $sliderHandler
+            .on('touchstart', function (e) {
+                startLeft = parseInt($sliderHandler.css('left')) * totalLen / 100;
+                startX = e.changedTouches[0].clientX;
+            })
+            .on('touchmove', function (e) {
+                var dist = startLeft + e.changedTouches[0].clientX - startX,
+                    percent;
+                dist = dist < 0 ? 0 : dist > totalLen ? totalLen : dist;
+                percent = parseInt(dist / totalLen * 100);
+                $sliderTrack.css('width', percent + '%');
+                $sliderHandler.css('left', percent + '%');
+                $sliderValue.text(Math.round(percent / 10));
+                $('.value-list').find('li').map(function (index, item) {
+                    if (index < Math.round(percent / 10)) {
+                        $(item).addClass('f-color');
+                    } else {
+                        $(item).removeClass('f-color');
+                    }
+                });
+                e.preventDefault();
+            })
+        ;
+    });
+</script>
+</body>
+</html>

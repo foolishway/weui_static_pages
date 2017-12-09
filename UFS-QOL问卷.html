@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>UFS-QOL问卷</title>
+    <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/1.1.2/weui.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <script type="text/javascript" src="./script/zepto.min.js"></script>
+    <script type="text/javascript" src="https://res.wx.qq.com/open/libs/weuijs/1.0.0/weui.min.js"></script>
+</head>
+<body>
+<div class="form-head">基本信息</div>
+<div class="weui-cells">
+    <div class="weui-cell">
+        <div class="weui-cell__hd"><label class="weui-label">年龄</label></div>
+        <div class="weui-cell__bd">
+            <input class="weui-input" type="number" placeholder="请输入年龄">
+        </div>
+    </div>
+    <div class="weui-cell">
+        <div class="weui-cell__hd"><label class="weui-label">Hb(g/l)</label></div>
+        <div class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder="请输入Hb(g/l)">
+        </div>
+    </div>
+    <div class="weui-cell weui-cell_select" style="padding-left: 15px;">
+        <div class="weui-cell__hd"><label class="weui-label">B超肌瘤</label></div>
+        <div class="weui-cell__bd">
+            <select class="weui-select" name="select1">
+                <option selected="" value="1">请选择</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+    </div>
+    <div class="weui-cell weui-cell_select" style="padding-left: 15px;">
+        <div class="weui-cell__hd"><label class="weui-label">B超肌瘤</label></div>
+        <div class="weui-cell__bd">
+            <select class="weui-select" name="select1">
+                <option selected="" value="1">请选择</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+    </div>
+    <div class="weui-cell weui-cell_select" style="padding-left: 15px;">
+        <div class="weui-cell__hd"><label class="weui-label">婚姻</label></div>
+        <div class="weui-cell__bd">
+            <select class="weui-select" name="select1">
+                <option selected="" value="1">请选择</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+    </div>
+    <div class="weui-cell weui-cell_select" style="padding-left: 15px;">
+        <div class="weui-cell__hd"><label class="weui-label">月经</label></div>
+        <div class="weui-cell__bd">
+            <select class="weui-select" name="select1">
+                <option selected="" value="1">请选择</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+    </div>
+    <div class="weui-cell weui-cell_select" style="padding-left: 15px;">
+        <div class="weui-cell__hd"><label class="weui-label">生育次数</label></div>
+        <div class="weui-cell__bd">
+            <select class="weui-select" name="select1">
+                <option selected="" value="1">请选择</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+    </div>
+    <div class="weui-cell weui-cell_select" style="padding-left: 15px;">
+        <div class="weui-cell__hd"><label class="weui-label">教育程度</label></div>
+        <div class="weui-cell__bd">
+            <select class="weui-select" name="select1">
+                <option selected="" value="1">请选择</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+    </div>
+</div>
+<div class="weui-cells">
+    <div class="weui-cell">
+        <div class="weui-cell__hd"><label class="weui-label">术后肌瘤情况，总体重量 (g)</label></div>
+        <div class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder="请输入">
+        </div>
+    </div>
+</div>
+
+<div class="opt"><a href="javascript:;" class="weui-btn weui-btn_primary" id="showPicker">下一步</a></div>
+
+<div class="">
+    <div class="weui-mask weui-animate-fade-in"></div>
+    <div class="weui-picker weui-animate-slide-up">
+        <div class="weui-picker__hd"><a href="javascript:;" data-action="cancel" class="weui-picker__action">取消</a>
+            教育程度
+            <a href="javascript:;" data-action="select" class="weui-picker__action" id="weui-picker-confirm">确定</a>
+        </div>
+        <div class="weui-picker__bd">
+            <div class="weui-picker__group">
+                <div class="weui-picker__mask"></div>
+                <div class="weui-picker__indicator"></div>
+                <div class="weui-picker__content" style="transform: translate3d(0px, 102px, 0px);">
+                    <div class="weui-picker__item">小学及以下</div>
+                    <div class="weui-picker__item">中学</div>
+                    <div class="weui-picker__item">大学及以上</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

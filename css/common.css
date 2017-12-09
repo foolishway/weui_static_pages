@@ -1,0 +1,193 @@
+body {
+    background: #F7F7F7;
+}
+
+.opt {
+    margin: 20px 0 20px 0;
+}
+
+.opt a {
+    margin: 0px 20px 0px 20px;
+    background: #00AEFF;
+}
+
+.opt a:active {
+    background-color: #00AEFF !important;
+}
+.align-left{
+    text-align:left !important;
+}
+.pl20{
+    padding-left:20px;
+}
+/*计算结果标题开始*/
+.cal-head {
+    margin-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.cal-head span {
+    color: #00AEFF;
+}
+.f-color{
+    color:#00AEFF;
+}
+
+/*计算结果标题结束*/
+/*计算结果开始*/
+.cal-result {
+    margin: 0 20px 0 20px;
+    background: url("../images/bg2@2x.png") no-repeat;
+    background-size: cover;
+    height: 244px;
+    position: relative;
+    text-align: center;
+}
+
+.cal-result hr {
+    position: absolute;
+    top: 140px;
+    left:20px;
+    right:20px;
+    border: 1px dashed #DFDFDF ;
+    z-index: 10;
+}
+/*计算结果结束*/
+.bmi-val{
+    font-size:30px;
+    color:#333333;
+}
+.bmi-dec{
+    color:#00A0E8;
+    font-size:14px;
+}
+.result-top{
+    position:absolute;
+    bottom:140px;
+    width: 100%;
+}
+.result-bottom{
+    position: absolute;
+    top:150px;
+    width: 100%;
+}
+.dec-title{
+    color:#333333;
+    font-size:14px;
+}
+.dec-content{
+    color:#666666;
+    font-size:12px;
+}
+.physical-state{
+    display: flex;
+    flex-direction: column;
+    padding-top:50px;
+}
+.physical-state div{
+    width:100%;
+    padding:5px 0 5px;
+}
+.form-head{
+    height:40px;
+    line-height:40px;
+    margin-left:20px;
+    margin-bottom:-20px;
+}
+/*slider 开始*/
+.value-list{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: row;
+    padding:0px 18px 0 18px;
+}
+.value-list li{
+    width: 10%;
+    list-style: none;
+}
+.weui-slider__track{
+    background: #00AEFF;
+}
+.slider-desc{
+    font-size:12px;
+    color:#999999;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.slider{
+ background: #FFFFFF;
+}
+/*slider 结束*/
+/*单选调色*/
+.weui-cells_radio .weui-check:checked + .weui-icon-checked:before{
+    color:#00AEFF;
+}
+/*复选调色*/
+.weui-cells_checkbox .weui-check:checked + .weui-icon-checked:before{
+    color:#00AEFF;
+}
+.questionnaire{
+    font-size:14px;
+    color:#333333;
+}
+.questionnaire-score{
+    font-size:30px;
+    color:#333333;
+}
+.UFS-QOL{
+    background: url("../images/bg@2x.png") no-repeat;
+    background-size: cover;
+    height:182px;
+}
+.UFS-QOL .content{
+    font-size:12px;
+    color:#ffffff;
+    padding:95px 25px 0px 25px;
+}
+.h257{
+    height:257px !important;
+}
+.dflex{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+}
+.dflex .score-r,.dflex .score-l{
+    width: 120px;
+    padding:0px 15px 0px 15px;
+    font-size:12px;
+    color:#666666;
+}
+.dflex .score-l .score-v,
+.dflex .score-r .score-v{
+    font-size:30px;
+    color: #333333;
+}
+
+.dflex .hr{
+    height: 100px;
+    width: 0px;
+    border: 1px dotted #DFDFDF;
+}
+.base-info{
+    height:203px;
+    margin:20px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    border:1px solid #FFFFFF;
+    -moz-box-shadow: 1px 1px 2px #FFFFFF;
+    -webkit-box-shadow:1px 1px 2px #FFFFFF;
+    box-shadow:1px 1px 2px #FFFFFF;
+}
+.base-info-content{
+    padding:0 0 0 20px;
+}
+.base-info-content table{
+    width:100%;
+}
+.base-info-title{
+    text-align: center;
+    padding:15px;
+}
